@@ -313,7 +313,7 @@ body{
 .home-sci{
     position: absolute;
     bottom: 40px;
-    width: 170px;
+    width: 550px;
     display: flex;
     justify-content: space-between;
 }
@@ -331,40 +331,8 @@ body{
     z-index: 2;
 }
 
-.contact-info a{
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
+.vertical-center {
+    display: inline-block;
     height: 40px;
-    background: transparent;
-    border: 2px solid #00abf0;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #00abf0;
-    text-decoration: none;
-    z-index: 1;
-    overflow: hidden;
-    transition: .5s;
-}
-
-.contact-info a:hover{
-    color: #081b29;
-}
-
-.contact-info a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #00abf0;
-    z-index: -1;
-    transition: .5s;
-}
-
-.contact-info a:hover::before{
-    width: 100%;
+    line-height: 40px;
 }
