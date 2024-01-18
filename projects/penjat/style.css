@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+#game-container {
+    max-width: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#user-input {
+    text-align: left;
+}
+
+#game-header {
+    margin-bottom: 20px;
+}
+
+#word-mask {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+#hangman-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#letter-buttons button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 8px 16px;
+}
+
+#game-result {
+    margin-top: 20px;
+}
+
+.custom-btn {
+    width: 100%;
+    background-color: #A8E528;
+    color: #fff;
+}
+
+.custom-btn:hover {
+    background-color: #93C91F;
+    color: white;
+}
+
+.keyboard-btn {
+    width: 50px;
+    background-color: #A8E528;
+    color: #fff;
+}
+
+.keyboard-btn:hover {
+    background-color: #93C91F;
+    color: white;
+}
