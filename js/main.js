@@ -63,3 +63,29 @@ $(window).scroll(function(){
     //     'transform' : 'translate(0, '+ winScroll /96 +'%)'
     // })
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const toggleCheckbox = document.getElementById('toggle');
+  const experienceDiv = document.querySelector('.experience');
+  const skillsDiv = document.querySelector('.skills');
+  
+  // Function to update the visibility of the divs
+  function updateVisibility() {
+      if (toggleCheckbox.checked) {
+          experienceDiv.style.display = 'none';
+          skillsDiv.style.display = 'block';
+      } else {
+          experienceDiv.style.display = 'block';
+          skillsDiv.style.display = 'none';
+      }
+  }
+
+  // Initial state
+  updateVisibility();
+
+  // Event listener for checkbox change
+  toggleCheckbox.addEventListener('change', updateVisibility);
+});
+
+
+
