@@ -6,12 +6,6 @@ h1+p, p+p {
   margin-top: 10px;
 }
 
-.container {
-  padding: 40px 80px;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-}
 
 .card-wrap {
   margin: 10px;
