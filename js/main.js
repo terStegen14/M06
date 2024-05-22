@@ -86,6 +86,37 @@ document.addEventListener('DOMContentLoaded', function() {
   // Event listener for checkbox change
   toggleCheckbox.addEventListener('change', updateVisibility);
 });
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'h') {
+      event.preventDefault(); 
+      $('#myModal').modal('show'); 
+  }
+});
+
+document.addEventListener('keydown', function(event) {
+  let url = '';
+
+  switch (event.key) {
+      case '1':
+          url = '../projects/Pokedex';
+          break;
+      case '2':
+          url = '../projects/penjat';
+          break;
+      case '3':
+          url = '../projects/kindmeals';
+          break;
+      case '4':
+          url = '../projects/nearch';
+          break;
+      default:
+          return;
+  }
+
+  if (url) {
+      window.location.href = url;
+  }
+});
 
 
 

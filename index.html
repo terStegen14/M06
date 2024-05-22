@@ -114,60 +114,53 @@
     </div>
     
     <div class="container vh-100 projects" style="display: flex;">
-        <div><h1>My projects</h1></div>
-      <div class="container" style="display: flex; justify-content: center; align-items: center;">
-        <div class="card-wrap" data-image="./assets/pokemon.jpg">
-          <a href="./projects/Pokedex-Buena">
-            <div class="card">
-              <div class="card-bg"></div>
-              <div class="card-info">
-                <h1>Pokédex</h1>
-                <p>Pokémon pokédex made with Vue</p>
-              </div>
+        <div>
+            <h1>My projects</h1>
+        </div>
+        <div class="container" style="display: flex; justify-content: center; align-items: center;">
+            <div class="card-wrap" data-image="./assets/pokemon.jpg">
+                <a href="./projects/Pokedex-Buena">
+                    <div class="card">
+                        <div class="card-bg"></div>
+                        <div class="card-info">
+                            <h1>Pokédex</h1>
+                            <p>Pokémon pokédex made with Vue</p>
+                        </div>
+                    </div>
+                </a>
             </div>
-          </a>
-        </div>
-        <div
-          class="card-wrap"
-          data-image="./assets/aroundtheworld.png"
-        >
-          <a href="./projects/penjat">
-            <div class="card">
-              <div class="card-bg"></div>
-              <div class="card-info">
-                <h1>Hangman</h1>
-                <p>Around the world hangman</p>
-              </div>
+            <div class="card-wrap" data-image="./assets/aroundtheworld.png">
+                <a href="./projects/penjat">
+                    <div class="card">
+                        <div class="card-bg"></div>
+                        <div class="card-info">
+                            <h1>Hangman</h1>
+                            <p>Around the world hangman</p>
+                        </div>
+                    </div>
+                </a>
             </div>
-          </a>
-        </div>
-        <div
-          class="card-wrap"
-          data-image="./assets/provider.png"
-        >
-          <a href="./projects/kindmeals">
-            <div class="card">
-              <div class="card-bg"></div>
-              <div class="card-info">
-                <h1>KindMeals</h1>
-                <p>Solidary food delivery web app</p>
-              </div>
-            </div></a
-          >
-        </div>
-        <div
-          class="card-wrap"
-          data-image="./assets/nearch.png"
-        >
-          <div class="card">
-            <div class="card-bg"></div>
-            <div class="card-info">
-              <h1>Nearch</h1>
-              <p>Find your nearest supermarket and create reminders</p>
+            <div class="card-wrap" data-image="./assets/provider.png">
+                <a href="./projects/kindmeals">
+                    <div class="card">
+                        <div class="card-bg"></div>
+                        <div class="card-info">
+                            <h1>KindMeals</h1>
+                            <p>Solidary food delivery web app</p>
+                        </div>
+                    </div>
+                </a>
             </div>
-          </div>
+            <div class="card-wrap" data-image="./assets/nearch.png">
+                <div class="card">
+                    <div class="card-bg"></div>
+                    <div class="card-info">
+                        <h1>Nearch</h1>
+                        <p>Find your nearest supermarket and create reminders</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     
     <div class="btn-box container mb-4" style="display: flex;">
@@ -181,15 +174,37 @@
             
         </div>
         
-      </div>
+    </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"
-    ></script>
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Modal Heading</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Modal body..
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/cards.js"></script>
+    <script>
+        
+        
+    </script>
   </body>
 </html>
 
