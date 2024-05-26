@@ -175,13 +175,6 @@ h1 {
 .home-sci a:hover::before{
   width: 100%;
 }
-.container.skills {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .skills .row {
   width: 100%;
