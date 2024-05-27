@@ -1,5 +1,6 @@
 .projects p {
   line-height: 1.5em;
+  
 }
 
 .projects h1+p, p+p {

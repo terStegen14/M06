@@ -27,7 +27,7 @@
   <div class="parallax">
     <div id="alert-container"></div>
     <div class="name">
-      <h1>Alejandro.</h1>
+      <h1>Hi, I'm Alejandro</h1>
     </div>
     <div class="work">
       <h1>Web & App Developer</h1>
@@ -56,14 +56,15 @@
     <div class="casa-light"></div>
     <div class="arbol-ff"></div>
   </div>
+  <div class="toggle mt-4">
+    <input type="checkbox" id="toggle" class="toggleCheckbox" />
+    <label for="toggle" class="toggleContainer">
+      <div>Experience</div>
+      <div>Skills</div>
+    </label>
+  </div>
   <div class="container vh-100 experience-skills mt-4">
-    <div>
-      <input type="checkbox" id="toggle" class="toggleCheckbox" />
-      <label for="toggle" class="toggleContainer">
-        <div>Experience</div>
-        <div>Skills</div>
-      </label>
-    </div>
+    
     <div>
       <div class="container experience mt-4">
         <h1>Experience</h1>
@@ -98,62 +99,95 @@
         </div>
       </div>
       <div class="container skills mt-4">
-        <div>
-          <h1>Skills</h1>
-          <div class="row row-cols-2 row-cols-md-5 g-4">
-            <div class="col">
-              <div class="card h-100" style="--bgcolor: rgba(227, 76, 38, 0.5);">
-                <img src="./assets/html.png" class="card-img" alt="HTML">
-              </div>
+        <h1 class="skills-title">Skills</h1>
+        <div class="cards-container">
+            <div class="card-wrap" data-image="./assets/html.png">
+                <div class="card html">
+                    <div class="card-bg"></div>
+                    <div class="card-info">
+                        <h1>HTML</h1>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-              <div class="card h-100" style="--bgcolor: rgba(38, 77, 228, 0.5);">
-                <img src="./assets/css.png" class="card-img" alt="CSS">
-              </div>
+            <div class="card-wrap" data-image="./assets/css.png">
+                <div class="card css">
+                    <div class="card-bg"></div>
+                    <div class="card-info">
+                        <h1>CSS</h1>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-              <div class="card h-100" style="--bgcolor: rgba(247, 223, 30, 0.5);">
-                <img src="./assets/js.png" class="card-img" alt="JavaScript">
-              </div>
+            <div class="card-wrap" data-image="./assets/js.png">
+                <div class="card js">
+                    <div class="card-bg"></div>
+                    <div class="card-info">
+                        <h1>JavaScript</h1>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-              <div class="card h-100" style="--bgcolor: rgba(97, 218, 251, 0.5);">
-                <img src="./assets/vue.png" class="card-img" alt="Vue.js">
-              </div>
+            <div class="card-wrap" data-image="./assets/vue.png">
+                <div class="card vue">
+                    <div class="card-bg"></div>
+                    <div class="card-info">
+                        <h1>Vue.js</h1>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-              <div class="card h-100" style="--bgcolor: rgba(0, 0, 0, 0.5);">
-                <img src="./assets/figma.png" class="card-img" alt="Figma">
-              </div>
+            <div class="card-wrap" data-image="./assets/figma.png">
+                <div class="card figma">
+                    <div class="card-bg"></div>
+                    <div class="card-info">
+                        <h1>Figma</h1>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-              <div class="card h-100" style="--bgcolor: rgba(77, 144, 31, 0.5);">
-                <img src="./assets/android.png" class="card-img" alt="Android">
-              </div>
+            <div class="card-wrap" data-image="./assets/android.png">
+                <div class="card android">
+                    <div class="card-bg"></div>
+                    <div class="card-info">
+                        <h1>Android Studio</h1>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-              <div class="card h-100" style="--bgcolor: rgba(60, 155, 226, 0.5);">
-                <img src="./assets/flutter.png" class="card-img" alt="Flutter">
-              </div>
+            <div class="card-wrap" data-image="./assets/flutter.png">
+                <div class="card flutter">
+                    <div class="card-bg"></div>
+                    <div class="card-info">
+                        <h1>Flutter</h1>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-              <div class="card h-100" style="--bgcolor: rgba(248, 88, 92, 0.5);">
-                <img src="./assets/laravel.png" class="card-img" alt="Laravel">
-              </div>
+            <div class="card-wrap" data-image="./assets/laravel.png">
+                <div class="card laravel">
+                    <div class="card-bg"></div>
+                    <div class="card-info">
+                        <h1>Laravel</h1>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-              <div class="card h-100" style="--bgcolor: rgba(79, 93, 149, 0.5);">
-                <img src="./assets/php.png" class="card-img" alt="PHP">
-              </div>
+            <div class="card-wrap" data-image="./assets/java.png">
+                <div class="card java">
+                    <div class="card-bg"></div>
+                    <div class="card-info">
+                        <h1>Java</h1>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-              <div class="card h-100" style="--bgcolor: rgba(176, 98, 52, 0.5);">
-                <img src="./assets/java.png" class="card-img" alt="Java">
-              </div>
+            <div class="card-wrap" data-image="./assets/php.png">
+                <div class="card php">
+                    <div class="card-bg"></div>
+                    <div class="card-info">
+                        <h1>PHP</h1>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
+    
+      
+      
+      
+      
     </div>
   </div>
   
@@ -212,17 +246,160 @@
 
   <div class="btn-box container mb-4" style="display: flex;">
     <a class="me-4" href="CV Alejandro Garcia Rigall.pdf" download="CV Alejandro Garcia Rigall.pdf">Download CV</a>
-    <a href="contact.html">Let'stalk</a>
+    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJTHWNhwLTxqQNHGmTwjklvNQxFFxTtnSdQcxVWpDthkqnXJzbXDsjhVTntnxTbfrNDgrqq">Let'stalk</a>
     <div class="ms-4 home-sci">
-      <a href="https://www.linkedin.com/in/alejandro-garcía-rigall-374564239/" target="_blank"><i
+      <a class="me-2" href="https://www.linkedin.com/in/alejandro-garcía-rigall-374564239/" target="_blank"><i
           class="bi bi-linkedin"></i></a>
-      <a href="https://github.com/terStegen14" target="_blank"><i class="bi bi-github"></i></a>
-      <a href="#"><i class="bi bi-telephone-fill"></i></a> +34 622144737
-      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJTHWNhwLTxqQNHGmTwjklvNQxFFxTtnSdQcxVWpDthkqnXJzbXDsjhVTntnxTbfrNDgrqq"
+      <a class="me-2" href="https://github.com/terStegen14" target="_blank"><i class="bi bi-github"></i></a>
+      <a class="me-2" href="#"><i class="bi bi-telephone-fill"></i></a> +34 622144737
+      <a class="ms-2 me-2" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJTHWNhwLTxqQNHGmTwjklvNQxFFxTtnSdQcxVWpDthkqnXJzbXDsjhVTntnxTbfrNDgrqq"
         target="_blank"><i class="bi bi-envelope-fill"></i></i></a> alejandrogari2002@gmail.com
 
     </div>
-
+    <div class="campfire">
+      <div class="stage">
+  <!-- <div class="campfire">
+    <div class="sparks">
+      <div class="spark"></div>
+      <div class="spark"></div>
+      <div class="spark"></div>
+      <div class="spark"></div>
+      <div class="spark"></div>
+      <div class="spark"></div>
+      <div class="spark"></div>
+      <div class="spark"></div>
+    </div>
+    <div class="logs">
+      <div class="log">
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+      </div>
+      <div class="log">
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+      </div>
+      <div class="log">
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+      </div>
+      <div class="log">
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+      </div>
+      <div class="log">
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+      </div>
+      <div class="log">
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+      </div>
+      <div class="log">
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+        <div class="streak"></div>
+      </div>
+    </div>
+    <div class="sticks">
+      <div class="stick"></div>
+      <div class="stick"></div>
+      <div class="stick"></div>
+      <div class="stick"></div>
+    </div>
+    <div class="fire">
+      <div class="fire__red">
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+      </div>
+      <div class="fire__orange">
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+      </div>
+      <div class="fire__yellow">
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+      </div>
+      <div class="fire__white">
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+        <div class="flame"></div>
+      </div>
+    </div> -->
+  </div>
+</div>
+    </div>
   </div>
 
   <div class="modal" id="myModal">
