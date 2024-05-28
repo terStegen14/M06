@@ -76,9 +76,9 @@
             Tu navegador no soporta la etiqueta de video.
         </video>
         <div class="button-container">
-            <button onclick="saltarA(0)" class="normal">Admin Stats</button>
-            <button onclick="saltarA(84)" class="inverse">Provider Stats</button>
-            <button onclick="saltarA(119)" class="inverse">Rider Stats</button>
+            <button onclick="saltarA(0)" class="normal">Inicio</button>
+            <button onclick="saltarA(70)" class="inverse">Sitios Cercanos</button>
+            <button onclick="saltarA(121)" class="inverse">Recordatorios</button>
         </div>
     </div>
     
@@ -93,9 +93,9 @@
         function actualizarBotones(segundos) {
             var botones = document.querySelectorAll('.button-container button');
             botones.forEach((boton, index) => {
-                if ((segundos >= 0 && segundos < 84 && index === 0) ||
-                    (segundos >= 84 && segundos < 119 && index === 1) ||
-                    (segundos >= 119 && index === 2)) {
+                if ((segundos >= 0 && segundos < 70 && index === 0) ||
+                    (segundos >= 84 && segundos < 121 && index === 1) ||
+                    (segundos >= 121 && index === 2)) {
                     boton.classList.add('normal');
                     boton.classList.remove('inverse');
                 } else {
